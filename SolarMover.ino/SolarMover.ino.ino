@@ -81,7 +81,10 @@ void loop() {
  * 
  * Current power usage: 20W idle, 35W no load.
  *  
- *  
+ * New Analysis:
+ * Performed 2 hour test at minimum current setting, previous test was at full current setting. This is dependant on the current required to move the panels on the frame. 
+ * Possible to revert code to not include the enable pin and to have that be constant 5v per usual. This will likely also keep the motor where it needs to be long term without loss.
+ * Motor was cool to the touch and only used 10-15W of power idle and no load.
  *  
  *  
  *  
